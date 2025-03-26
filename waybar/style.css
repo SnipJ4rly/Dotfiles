@@ -1,0 +1,134 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family:
+    JetBrainsMono Nerd Font,
+    monospace;
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(21, 18, 27, 0);
+  color: #ff6666;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #ff6666;
+  margin-right: 5px;
+}
+
+#workspaces button.active {
+  color: #daf7a6;
+}
+
+#workspaces button.focused {
+  color: #dc143c;
+  background: #eba0ac;
+  border-radius: 10px;
+}
+
+#workspaces button.urgent {
+  color: #111111;
+  background: #a6e3a1;
+  border-radius: 10px;
+}
+
+#workspaces button:hover {
+  background: #cdd6f4;
+  color: #11111b;
+  border-radius: 10px;
+}
+
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#workspaces,
+#mpris,
+#backlight {
+  background: #000000;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  margin-top: 5px;
+  /* border: 1px solid #181825; */
+}
+
+#backlight {
+  color: #ffcc66;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#mpris {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#workspaces {
+  background: #000110;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#cpu {
+  color: #ffcc66;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+
+#memory {
+  color: #99ffdd;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#clock {
+  background: #000110;
+  color: #e7dfdf;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 5px;
+  border-right: 0px;
+}
+
+#network {
+  color: #daf7a6;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#pulseaudio {
+  color: #daf7a6;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#pulseaudio.microphone {
+  color: #ff5733;
+  border-radius: 0px 10px 10px 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-right: 5px;
+}
+
+#battery {
+  color: #b8a6c8;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 10px;
+}
+/*
+#visualizer {
+  font-size: 10px;
+  color: #ffffff;
+}
+*/

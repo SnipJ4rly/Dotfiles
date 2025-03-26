@@ -1,0 +1,29 @@
+
+[window]
+opacity = 0.75  # Transparencia (ajústalo entre 0.0 y 1.0)
+padding = { x = 3, y = 3 }  # Espaciado interno
+dynamic_padding = false
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 12.0 # Ajusta el tamaño según prefieras
+
+
+[colors.primary]
+background = "#300000"  # Fondo oscuro
+foreground = "#CDD6F4"  # Texto claro
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+unfocused_hollow = true
+
+[bell]
+animation = "EaseOutExpo"
+duration = 100
+color = "#F38BA8"  # Color de alerta
+
+[selection]
+save_to_clipboard = true
